@@ -1,4 +1,7 @@
+
+//irá observar em todo site um evento de click no botão
 document.body.addEventListener('keyup', (event)=>{
+    //seleciona a tecla digitada e a coloca em minúsculo as informações
     playSound( event.code.toLowerCase() );
 });
 
